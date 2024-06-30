@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main>
+  <section class="socials-followers_container">
+    <div class="header-container">
+      <div class="title-container">
+        <h1>Social Media Dashboard</h1>
+        <small>Total Followers: 23,004</small>
+      </div>
+      <div class="toggle-mode">
+        <label for="switch-toggle"><span class="mode">Dark</span> Mode</label>
+        <input type="checkbox" name="switch-toggle" id="switch-toggle">
+      </div>
+    </div>
+    <div class="social-followers">
+      <div class="card-info" id="facebook-info">
+        <p class="user"><img src="./images/icon-facebook.svg" alt="Facebook icon" srcset=""> @nathanf</p>
+        <h2 class="followers">1987</h2>
+        <p>Followers</p>
+        <p class="followers-change growth"><span ><img src="./images/icon-up.svg" alt="" srcset="" class="icon"></span><span class="user-change">12</span> Today</p>
+      </div>
+      <div class="card-info" id="twitter-info">
+        <p class="twitter-user"><img src="./images/icon-twitter.svg" alt="Twitter icon" srcset=""> @nathanf</p>
+        <h2 class="followers">1044</h2>
+        <p>Followers</p> 
+        <p class="followers-change growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="icon"></span><span class="user-change" >99</span> Today</p>
+      </div>
+      <div class="card-info" id="instagram-info">
+        <p class="instagram-user"><img src="./images/icon-instagram.svg" alt="Instagram icon" srcset=""> @realnathanf</p>
+        <h2 class="followers">11k</h2>
+        <p>Followers</p>
+        <p class="followers-change growth"><span class="icon"><img src="./images/icon-up.svg" alt="" srcset=""></span><span class="user-change">1099</span> Today</p>
+      </div>
+      <div class="card-info" id="youtube-info">
+        <p class="youtube-user"><img src="./images/icon-youtube.svg" alt="Youtube icon" srcset="">Nathan F.</p>
+        <h2 class="followers">8239</h2>
+        <p>Followers</p>
+        <p class="followers-change decrease"><span class="icon"><img src="./images/icon-down.svg" alt="" srcset=""></span><span class="user-change">144</span> Today</p>
+      </div>
+    </div>
+  </section>
+  <section class="social-stats_container">
+    <h2>Overview - Today</h2>
+    <div class="stats-container">
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Page Views</h3>
+          <span id="facebook-views" class="results">87</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-facebook.svg" alt="" srcset="">
+          <p class="stats-info growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="stats-icon"></span>3%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Likes</h3>
+          <span id="facebook-likes" class="results">52</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-facebook.svg" alt="" srcset="">
+          <p class="stats-info decrease"><span><img src="./images/icon-down.svg" alt="" srcset="" class="stats-icon"></span>2%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Likes</h3>
+          <span id="instagram-likes" class="results">5462</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-instagram.svg" alt="" srcset="">
+          <p class="stats-info growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="stats-icon"></span>2257%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Profile Views</h3>
+          <span id="instagram-views">52k</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-instagram.svg" alt="" srcset="">
+          <p class="stats-info growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="stats-icon"></span>1375%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Retweets</h3>
+          <span id="retweets" class="results">117</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-twitter.svg" alt="" srcset="">
+          <p class="stats-info growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="stats-icon"></span>303%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Likes</h3>
+          <span id="twitter-likes" class="results">507</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-twitter.svg" alt="" srcset="">
+          <p class="stats-info growth"><span><img src="./images/icon-up.svg" alt="" srcset="" class="stats-icon"></span>553%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3>Likes</h3>
+          <span id="youtube-likes" class="results">107</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-youtube.svg" alt="" srcset="">
+          <p class="stats-info decrease"><span><img src="./images/icon-down.svg" alt="" srcset="" class="stats-icon"></span>19%</p>
+        </div>
+      </div>
+      <div class="stat">
+        <div class="result-stats">
+          <h3></h3>
+          <span id="youtube-views" class="results">1407</span>
+        </div>
+        <div class="social-stats">
+          <img src="./images/icon-youtube.svg" alt="" srcset="">
+          <p class="stats-info decrease"><span><img src="./images/icon-down.svg" alt="" srcset="" class="stats-icon"></span>12%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/jenn-acosta7/">Jenn Acosta</a>.
+  </div>
+</body>
+</html>
